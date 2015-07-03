@@ -1,16 +1,18 @@
 # gittem-gitlab
 
-Take a CSV of URLs of tar.gz git repositories, extract them, and load them into gitlab
-
+Take a CSV of URLs of git repositories and load them into gitlab.
 
 ## USAGE
 
-First things first
+First things first. Get ye some docker and docker-compose... then:
+
 ```
 docker-compose up # Courtesy of http://www.damagehead.com/docker-gitlab/
 ```
 
-You'll need to point your browser to http://dockerhost:10080 (I set dockerhost in ``/etc/hosts`). If you use boot2docker, the dockerhost can be found by running `boot2docker ip`.
+This will instantiate a gitlab instance.
+
+Now, you'll need to point your browser to http://dockerhost:10080 (I set dockerhost in ``/etc/hosts`). If you use boot2docker, the dockerhost can be found by running `boot2docker ip`.
 
 The first time you log in, you'll need to use these credentials:
 ```
