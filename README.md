@@ -7,7 +7,7 @@ Take a CSV of URLs of git repositories and load them into gitlab.
 First things first. Get ye some docker and docker-compose... then:
 
 ```
-docker-compose up # Courtesy of http://www.damagehead.com/docker-gitlab/
+docker-compose up -d # Courtesy of http://www.damagehead.com/docker-gitlab/
 ```
 
 This will instantiate a gitlab instance.
